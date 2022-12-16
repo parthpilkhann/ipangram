@@ -1,0 +1,61 @@
+.descContainer {
+    margin-inline: auto;
+    max-width: 80%;
+    text-align: center;
+}
+
+.title {
+    max-width: 50%;
+    margin-inline: auto;
+}
+
+.ques {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 3vh 0;
+}
+
+.quesLabel{
+    flex: 3;
+    text-align: left;
+}
+
+.form-check {
+    display: flex;
+    justify-content: end;
+    gap: 1vw;
+    align-items: center;
+    flex: 1;
+}
+
+.ques6{
+    display: flex;
+}
+.ques6Left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1vh;
+    flex: 1;
+}
+
+.ques6Right{
+    flex: 1;
+    border: 3px solid;
+    height: fit-content;
+    color: grey;
+    margin-top: 10vh;
+}
+
+.ques7{
+    display: flex;
+    flex-direction: column;
+    margin: 3vh 0;
+    gap: 3vh;
+}
+
+.ques7Choices{
+    display: flex;
+    justify-content: space-between;
+}
